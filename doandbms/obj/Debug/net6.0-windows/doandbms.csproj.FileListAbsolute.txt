@@ -1,0 +1,64 @@
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.exe
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.deps.json
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.runtimeconfig.json
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.dll
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.pdb
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.AssemblyReference.cache
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Form1.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Properties.Resources.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.GenerateResource.cache
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.GeneratedMSBuildEditorConfig.editorconfig
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.AssemblyInfoInputs.cache
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.AssemblyInfo.cs
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.CoreCompileInputs.cache
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.dll
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\refint\doandbms.dll
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.pdb
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.genruntimeconfig.cache
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\ref\doandbms.dll
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.signUp.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.GiaoDienQuanLi.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.UserQuanLi.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.ForgotPass.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.GiaoDienSinhVien.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.KyLuat.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.QuanLiDienNuoc.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.QuanLiHopDong.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.QuanLiPhong.resources
+D:\ki 1 nam 3\hqtcsdl\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.QuanLiSinhVien.resources
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.exe
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.deps.json
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.runtimeconfig.json
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\doandbms.pdb
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.ForgotPass.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.GiaoDienSinhVien.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Properties.Resources.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.GenerateResource.cache
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.GeneratedMSBuildEditorConfig.editorconfig
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.AssemblyInfoInputs.cache
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.AssemblyInfo.cs
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.CoreCompileInputs.cache
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.dll
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\refint\doandbms.dll
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.pdb
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.genruntimeconfig.cache
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\ref\doandbms.dll
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.AssemblyReference.cache
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\doandbms\doandbms\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.csproj.Up2Date
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.User.InforQly.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.User.signIn.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.User.signUp.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.GiaoDienQuanLi.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.KyLuat.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.QuanLiDienNuoc.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.QuanLiHopDong.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.QuanLiPhong.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.QuanLiSinhVien.resources
+D:\doandbms\doandbms\obj\Debug\net6.0-windows\doandbms.Design.UserQuanLi.resources

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Design\User\ForgotPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\User\InforQly.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\User\signIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormSv\GiaoDienSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\GiaoDienQuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\KyLuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\QuanLiDienNuoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\QuanLiHopDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\QuanLiPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\QuanLiSinhVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\User\signUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\UserQuanLi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
