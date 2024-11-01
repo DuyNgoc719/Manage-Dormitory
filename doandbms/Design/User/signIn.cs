@@ -30,13 +30,15 @@ namespace doandbms.User
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             signUp SignUp = new signUp();
-            SignUp.ShowDialog();
+            SignUp.Show();
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             ForgotPass forgotPass = new ForgotPass();
-            forgotPass.ShowDialog();
+            forgotPass.Show();
+            this.Hide();
         }
 
         private void btn_Login_Click(object sender, EventArgs e)

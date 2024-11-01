@@ -8,7 +8,7 @@ namespace doandbms.Dbs
     public class DbConnect
     {
         private readonly string connectionString =
-            "Data Source=localhost;Initial Catalog=QLSV;Integrated Security=True";
+            "Data Source=LAPTOP-862CIO4M\\MISASME2022;Initial Catalog=QLSV;Integrated Security=True";
 
         public SqlConnection Connection { get; private set; }
 

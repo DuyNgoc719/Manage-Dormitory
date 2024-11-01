@@ -104,14 +104,14 @@ namespace doandbms.Dbs
                     MaSv = resultTable.Rows[0]["MaSv"].ToString(),
                     HoTen = resultTable.Rows[0]["HoTen"].ToString(),
                     NgaySinh = Convert.ToDateTime(resultTable.Rows[0]["NgaySinh"]),
-                    Sex = resultTable.Rows[0]["Sex"].ToString(),
-                    Cccd = resultTable.Rows[0]["Cccd"].ToString(),
+                    Sex = resultTable.Rows[0]["GioiTinh"].ToString(),
+                    Cccd = resultTable.Rows[0]["CCCD"].ToString(),
                     DiaChi = resultTable.Rows[0]["DiaChi"].ToString(),
-                    Sdt = resultTable.Rows[0]["Sdt"].ToString(),
+                    Sdt = resultTable.Rows[0]["SDT"].ToString(),
                     MaPhong = resultTable.Rows[0]["MaPhong"].ToString(),
                     MaToa = resultTable.Rows[0]["MaToa"].ToString(),
-                    Anh = ConvertByteArrayToImage((byte[])resultTable.Rows[0]["Anh"]),
-                    Duyet = (byte)resultTable.Rows[0]["Duyet"]
+                    // Anh = ConvertByteArrayToImage((byte[])resultTable.Rows[0]["Anh"]),
+                    //Duyet = resultTable.Rows[0]["Duyet"]
                 };
             }
             return null;
