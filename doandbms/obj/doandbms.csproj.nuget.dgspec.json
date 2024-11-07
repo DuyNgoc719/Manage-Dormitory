@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DBMS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {}
+    "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {}
   },
   "projects": {
-    "D:\\DBMS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {
+    "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DBMS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
+        "projectUniqueName": "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
         "projectName": "doandbms",
-        "projectPath": "D:\\DBMS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
-        "packagesPath": "C:\\Users\\MAI XUAN THUY\\.nuget\\packages\\",
-        "outputPath": "D:\\DBMS\\Manage-Dormitory\\doandbms\\obj\\",
+        "projectPath": "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
+        "packagesPath": "C:\\Users\\ngocd\\.nuget\\packages\\",
+        "outputPath": "D:\\DBS\\Manage-Dormitory\\doandbms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\MAI XUAN THUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ngocd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -58,13 +58,13 @@ namespace doandbms.Design
             {
                 GetDataStudent(e);
                 txt_masv.Text = sinhVien.MaSv;
-                txt_cccd.Text = sinhVien.Cccd; 
-                txt_name.Text = sinhVien.HoTen; 
+                txt_cccd.Text = sinhVien.Cccd;
+                txt_name.Text = sinhVien.HoTen;
                 txt_sdt.Text = sinhVien.Sdt;
                 txt_maphong.Text = sinhVien.MaPhong;
                 txt_matoa.Text = sinhVien.MaToa;
-                txt_diachi.Text = sinhVien.DiaChi; 
-                txt_sex.Text = sinhVien.Sex; 
+                txt_diachi.Text = sinhVien.DiaChi;
+                txt_sex.Text = sinhVien.Sex;
                 mdf_date.Text = sinhVien.NgaySinh.ToString("dd/MM/yyyy");
             }
         }
@@ -85,9 +85,27 @@ namespace doandbms.Design
             sinhVien.MaSv = row.Cells["MaSV"].Value.ToString();
         }
 
+
+
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn Muốn xóa sinh viên này ? ", "Xóa sinh viên", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                if (txt_masv.Text.Length > 0)
+                {
+                    qlyRepository.DeleteSv(txt_masv.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Không có sinh viên được chọn");
+                }
+            } 
         }
     }
 }

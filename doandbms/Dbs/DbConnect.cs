@@ -8,7 +8,7 @@ namespace doandbms.Dbs
     public class DbConnect
     {
         private readonly string connectionString =
-            "Data Source=LAPTOP-862CIO4M\\MISASME2022;Initial Catalog=QLSV;Integrated Security=True";
+            "Data Source=localhost;Initial Catalog=QLSV;Integrated Security=True";
 
         public SqlConnection Connection { get; private set; }
 
@@ -63,6 +63,32 @@ namespace doandbms.Dbs
             {
                 MessageBox.Show($"Lỗi khi thực thi câu lệnh: {ex.Message}");
                 return false;
+            }
+            finally
+            {
+                CloseConnection();
+            }
+        }
+
+        public object ExecuteScalar(string query, CommandType commandType, SqlParameter[] parameters = null)
+        {
+            try
+            {
+                OpenConnection();
+                using (SqlCommand cmd = new SqlCommand(query, Connection))
+                {
+                    cmd.CommandType = commandType;
+
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    return cmd.ExecuteScalar();  // Trả về kết quả từ thủ tục
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi thực thi câu lệnh: {ex.Message}");
+                return null;
             }
             finally
             {

@@ -48,5 +48,44 @@ namespace doandbms.Dbs
                 return null;
             }
         }
+
+        public void ChangeInforQli(string toa, string hoten)
+        {
+            string query = "sp_SuaQuanLy";
+            SqlParameter[] sqlParameters = new SqlParameter[]
+            {
+                new SqlParameter("@MaToa", toa),
+                new SqlParameter("@HoTen", hoten)
+            };
+
+            object result = dbConnect.ExecuteScalar(query, CommandType.StoredProcedure, sqlParameters);
+            string message = result?.ToString();
+
+            if (message == "success")
+            {
+                MessageBox.Show("Thay đổi thành công");
+            }
+            else
+            {
+                MessageBox.Show("Thay đổi thất bại: ");
+            }
+        }
+        public void DeleteSv(string mssv)
+        {
+            string query = "sp_XoaSinhVien";
+            SqlParameter[] sqlParameters = new SqlParameter[]
+            {
+                new SqlParameter("@MaSv",mssv)
+            };
+            bool success = dbConnect.ExecuteNonQuery(query, CommandType.StoredProcedure, sqlParameters);
+            if (success)
+            {
+                MessageBox.Show("Xóa Thành Công");
+            } else
+            {
+                MessageBox.Show("Xóa thất bại");
+            }
+        }
+
     }
 }
