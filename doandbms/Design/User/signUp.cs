@@ -43,19 +43,20 @@ namespace doandbms.User
             if (!checkFill())
             {
                 MessageBox.Show("Please fill all");
-            } else
+            }
+            else
             {
                 acc = getAccount();
                 accountRepository.AddAccount(acc.Username, acc.Password, acc.Email, acc.Role);
             }
-           if (btnSelect_Qly.Checked)
+            if (btnSelect_Qly.Checked)
             {
                 InforQly inforQly = new InforQly(acc);
                 this.Hide();
                 inforQly.Show();
-                
+
             }
-            
+
         }
 
         private Account getAccount()
@@ -64,10 +65,11 @@ namespace doandbms.User
             val.Username = txt_Username.Text;
             val.Password = txt_Password.Text;
             val.Email = txt_Email.Text;
-            if (btnSelect_Sv.Checked )
+            if (btnSelect_Sv.Checked)
             {
                 val.Role = "ROLE_SV";
-            } else
+            }
+            else
             {
                 val.Role = "ROLE_QLY";
             }
@@ -76,7 +78,7 @@ namespace doandbms.User
 
         private bool checkFill()
         {
-            if (txt_Username.Text=="" || txt_Password.Text == ""
+            if (txt_Username.Text == "" || txt_Password.Text == ""
                 || txt_Email.Text == "" || txt_RePassword.Text == "")
             {
                 return false;
@@ -86,12 +88,23 @@ namespace doandbms.User
                 if (btnSelect_Qly.Checked || btnSelect_Sv.Checked)
                 {
                     return true;
-                } else
+                }
+                else
                 {
                     return false;
                 }
             }
-            
+
+        }
+
+        private void txt_RePassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_Password_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

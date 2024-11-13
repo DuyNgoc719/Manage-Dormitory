@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\doandbms\\doandbms\\doandbms.csproj": {}
+    "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {}
   },
   "projects": {
-    "D:\\doandbms\\doandbms\\doandbms.csproj": {
+    "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\doandbms\\doandbms\\doandbms.csproj",
+        "projectUniqueName": "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
         "projectName": "doandbms",
-        "projectPath": "D:\\doandbms\\doandbms\\doandbms.csproj",
+        "projectPath": "D:\\DBS\\Manage-Dormitory\\doandbms\\doandbms.csproj",
         "packagesPath": "C:\\Users\\ngocd\\.nuget\\packages\\",
-        "outputPath": "D:\\doandbms\\doandbms\\obj\\",
+        "outputPath": "D:\\DBS\\Manage-Dormitory\\doandbms\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

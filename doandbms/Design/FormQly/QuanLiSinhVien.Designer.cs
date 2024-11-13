@@ -28,362 +28,399 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.modifyDate = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            btn_dsghan = new Button();
+            btn_duyet = new Button();
+            btn_dsduyet = new Button();
+            btn_xemtk = new Button();
+            btn_sua = new Button();
+            btn_delete = new Button();
+            label9 = new Label();
+            txt_matoa = new TextBox();
+            label10 = new Label();
+            txt_maphong = new TextBox();
+            txt_masv = new TextBox();
+            label6 = new Label();
+            label1 = new Label();
+            txt_sdt = new TextBox();
+            label2 = new Label();
+            txt_diachi = new TextBox();
+            label3 = new Label();
+            label4 = new Label();
+            label7 = new Label();
+            txt_sex = new TextBox();
+            label8 = new Label();
+            txt_name = new TextBox();
+            txt_cccd = new TextBox();
+            mdf_date = new DateTimePicker();
+            label5 = new Label();
+            dtg_student = new DataGridView();
+            txt_search_sv = new TextBox();
+            lb_search = new Label();
+            panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtg_student).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.textBox6);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.textBox8);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox7);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.modifyDate);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(470, 589);
-            this.panel1.TabIndex = 0;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(btn_dsghan);
+            panel1.Controls.Add(btn_duyet);
+            panel1.Controls.Add(btn_dsduyet);
+            panel1.Controls.Add(btn_xemtk);
+            panel1.Controls.Add(btn_sua);
+            panel1.Controls.Add(btn_delete);
+            panel1.Controls.Add(label9);
+            panel1.Controls.Add(txt_matoa);
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(txt_maphong);
+            panel1.Controls.Add(txt_masv);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(txt_sdt);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(txt_diachi);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(txt_sex);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(txt_name);
+            panel1.Controls.Add(txt_cccd);
+            panel1.Controls.Add(mdf_date);
+            panel1.Controls.Add(label5);
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(470, 589);
+            panel1.TabIndex = 0;
             // 
-            // button6
+            // btn_dsghan
             // 
-            this.button6.Location = new System.Drawing.Point(298, 508);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 43);
-            this.button6.TabIndex = 84;
-            this.button6.Text = "Danh sách gia hạn";
-            this.button6.UseVisualStyleBackColor = true;
+            btn_dsghan.Location = new Point(298, 508);
+            btn_dsghan.Name = "btn_dsghan";
+            btn_dsghan.Size = new Size(75, 43);
+            btn_dsghan.TabIndex = 84;
+            btn_dsghan.Text = "Danh sách gia hạn";
+            btn_dsghan.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btn_duyet
             // 
-            this.button5.Location = new System.Drawing.Point(192, 508);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 43);
-            this.button5.TabIndex = 83;
-            this.button5.Text = "Duyệt";
-            this.button5.UseVisualStyleBackColor = true;
+            btn_duyet.Location = new Point(192, 508);
+            btn_duyet.Name = "btn_duyet";
+            btn_duyet.Size = new Size(75, 43);
+            btn_duyet.TabIndex = 83;
+            btn_duyet.Text = "Duyệt";
+            btn_duyet.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btn_dsduyet
             // 
-            this.button4.Location = new System.Drawing.Point(84, 508);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 43);
-            this.button4.TabIndex = 82;
-            this.button4.Text = "Danh sách duyệt";
-            this.button4.UseVisualStyleBackColor = true;
+            btn_dsduyet.Location = new Point(84, 508);
+            btn_dsduyet.Name = "btn_dsduyet";
+            btn_dsduyet.Size = new Size(75, 43);
+            btn_dsduyet.TabIndex = 82;
+            btn_dsduyet.Text = "Danh sách duyệt";
+            btn_dsduyet.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btn_xemtk
             // 
-            this.button3.Location = new System.Drawing.Point(298, 459);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 43);
-            this.button3.TabIndex = 81;
-            this.button3.Text = "Xem tài khoản";
-            this.button3.UseVisualStyleBackColor = true;
+            btn_xemtk.Location = new Point(298, 459);
+            btn_xemtk.Name = "btn_xemtk";
+            btn_xemtk.Size = new Size(75, 43);
+            btn_xemtk.TabIndex = 81;
+            btn_xemtk.Text = "Xem tài khoản";
+            btn_xemtk.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_sua
             // 
-            this.button2.Location = new System.Drawing.Point(192, 459);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 43);
-            this.button2.TabIndex = 80;
-            this.button2.Text = "Sửa";
-            this.button2.UseVisualStyleBackColor = true;
+            btn_sua.Location = new Point(192, 459);
+            btn_sua.Name = "btn_sua";
+            btn_sua.Size = new Size(75, 43);
+            btn_sua.TabIndex = 80;
+            btn_sua.Text = "Sửa";
+            btn_sua.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_delete
             // 
-            this.button1.Location = new System.Drawing.Point(84, 459);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 43);
-            this.button1.TabIndex = 79;
-            this.button1.Text = "Xóa";
-            this.button1.UseVisualStyleBackColor = true;
+            btn_delete.Location = new Point(84, 459);
+            btn_delete.Name = "btn_delete";
+            btn_delete.Size = new Size(75, 43);
+            btn_delete.TabIndex = 79;
+            btn_delete.Text = "Xóa";
+            btn_delete.UseVisualStyleBackColor = true;
+            btn_delete.Click += btn_delete_Click;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(68, 373);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 15);
-            this.label9.TabIndex = 78;
-            this.label9.Text = "Mã Tòa:";
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.ForeColor = Color.Black;
+            label9.Location = new Point(68, 373);
+            label9.Name = "label9";
+            label9.Size = new Size(49, 15);
+            label9.TabIndex = 78;
+            label9.Text = "Mã Tòa:";
             // 
-            // textBox6
+            // txt_matoa
             // 
-            this.textBox6.Location = new System.Drawing.Point(172, 370);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(219, 23);
-            this.textBox6.TabIndex = 77;
+            txt_matoa.Location = new Point(172, 370);
+            txt_matoa.Name = "txt_matoa";
+            txt_matoa.Size = new Size(219, 23);
+            txt_matoa.TabIndex = 77;
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(68, 412);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(65, 15);
-            this.label10.TabIndex = 75;
-            this.label10.Text = "Mã phòng:";
+            label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
+            label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.Black;
+            label10.Location = new Point(68, 412);
+            label10.Name = "label10";
+            label10.Size = new Size(65, 15);
+            label10.TabIndex = 75;
+            label10.Text = "Mã phòng:";
             // 
-            // textBox8
+            // txt_maphong
             // 
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox8.Location = new System.Drawing.Point(172, 409);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(219, 23);
-            this.textBox8.TabIndex = 76;
+            txt_maphong.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_maphong.Location = new Point(172, 409);
+            txt_maphong.Margin = new Padding(3, 2, 3, 2);
+            txt_maphong.Name = "txt_maphong";
+            txt_maphong.Size = new Size(219, 23);
+            txt_maphong.TabIndex = 76;
             // 
-            // textBox1
+            // txt_masv
             // 
-            this.textBox1.Location = new System.Drawing.Point(171, 97);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(220, 23);
-            this.textBox1.TabIndex = 74;
+            txt_masv.Location = new Point(171, 97);
+            txt_masv.Name = "txt_masv";
+            txt_masv.Size = new Size(220, 23);
+            txt_masv.TabIndex = 74;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(65, 292);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(86, 15);
-            this.label6.TabIndex = 73;
-            this.label6.Text = " Số điện thoại:";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(65, 292);
+            label6.Name = "label6";
+            label6.Size = new Size(86, 15);
+            label6.TabIndex = 73;
+            label6.Text = " Số điện thoại:";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(65, 100);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 15);
-            this.label1.TabIndex = 61;
-            this.label1.Text = "Mã sinh viên:";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.Black;
+            label1.Location = new Point(65, 100);
+            label1.Name = "label1";
+            label1.Size = new Size(79, 15);
+            label1.TabIndex = 61;
+            label1.Text = "Mã sinh viên:";
             // 
-            // textBox5
+            // txt_sdt
             // 
-            this.textBox5.Location = new System.Drawing.Point(171, 289);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(219, 23);
-            this.textBox5.TabIndex = 72;
+            txt_sdt.Location = new Point(171, 289);
+            txt_sdt.Name = "txt_sdt";
+            txt_sdt.Size = new Size(219, 23);
+            txt_sdt.TabIndex = 72;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(65, 167);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 15);
-            this.label2.TabIndex = 62;
-            this.label2.Text = "Ngày sinh:";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(65, 177);
+            label2.Name = "label2";
+            label2.Size = new Size(63, 15);
+            label2.TabIndex = 62;
+            label2.Text = "Ngày sinh:";
+            label2.Click += label2_Click;
             // 
-            // textBox4
+            // txt_diachi
             // 
-            this.textBox4.Location = new System.Drawing.Point(171, 247);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(220, 23);
-            this.textBox4.TabIndex = 71;
+            txt_diachi.Location = new Point(171, 247);
+            txt_diachi.Name = "txt_diachi";
+            txt_diachi.Size = new Size(220, 23);
+            txt_diachi.TabIndex = 71;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(64, 137);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 15);
-            this.label3.TabIndex = 63;
-            this.label3.Text = "Họ và tên:";
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.Black;
+            label3.Location = new Point(64, 137);
+            label3.Name = "label3";
+            label3.Size = new Size(64, 15);
+            label3.TabIndex = 63;
+            label3.Text = "Họ và tên:";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(65, 250);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 15);
-            this.label4.TabIndex = 70;
-            this.label4.Text = "Địa chỉ:";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.ForeColor = Color.Black;
+            label4.Location = new Point(65, 250);
+            label4.Name = "label4";
+            label4.Size = new Size(47, 15);
+            label4.TabIndex = 70;
+            label4.Text = "Địa chỉ:";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(68, 331);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 15);
-            this.label7.TabIndex = 64;
-            this.label7.Text = "CCCD:";
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label7.ForeColor = Color.Black;
+            label7.Location = new Point(68, 331);
+            label7.Name = "label7";
+            label7.Size = new Size(40, 15);
+            label7.TabIndex = 64;
+            label7.Text = "CCCD:";
             // 
-            // textBox7
+            // txt_sex
             // 
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox7.Location = new System.Drawing.Point(171, 208);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(72, 23);
-            this.textBox7.TabIndex = 69;
+            txt_sex.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_sex.Location = new Point(171, 208);
+            txt_sex.Margin = new Padding(3, 2, 3, 2);
+            txt_sex.Name = "txt_sex";
+            txt_sex.Size = new Size(72, 23);
+            txt_sex.TabIndex = 69;
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(65, 206);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(58, 15);
-            this.label8.TabIndex = 68;
-            this.label8.Text = "Giới tính:";
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.ForeColor = Color.Black;
+            label8.Location = new Point(65, 206);
+            label8.Name = "label8";
+            label8.Size = new Size(58, 15);
+            label8.TabIndex = 68;
+            label8.Text = "Giới tính:";
             // 
-            // textBox3
+            // txt_name
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(172, 134);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(219, 23);
-            this.textBox3.TabIndex = 65;
+            txt_name.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_name.Location = new Point(172, 134);
+            txt_name.Margin = new Padding(3, 2, 3, 2);
+            txt_name.Name = "txt_name";
+            txt_name.Size = new Size(219, 23);
+            txt_name.TabIndex = 65;
             // 
-            // textBox2
+            // txt_cccd
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(171, 328);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(219, 23);
-            this.textBox2.TabIndex = 67;
+            txt_cccd.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_cccd.Location = new Point(171, 328);
+            txt_cccd.Margin = new Padding(3, 2, 3, 2);
+            txt_cccd.Name = "txt_cccd";
+            txt_cccd.Size = new Size(219, 23);
+            txt_cccd.TabIndex = 67;
             // 
-            // modifyDate
+            // mdf_date
             // 
-            this.modifyDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.modifyDate.Location = new System.Drawing.Point(171, 172);
-            this.modifyDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.modifyDate.Name = "modifyDate";
-            this.modifyDate.Size = new System.Drawing.Size(219, 23);
-            this.modifyDate.TabIndex = 66;
+            mdf_date.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            mdf_date.Location = new Point(171, 172);
+            mdf_date.Margin = new Padding(3, 2, 3, 2);
+            mdf_date.Name = "mdf_date";
+            mdf_date.Size = new Size(219, 23);
+            mdf_date.TabIndex = 66;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(16, 12);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 24);
-            this.label5.TabIndex = 28;
-            this.label5.Text = "Thông tin sinh viên";
+            label5.AutoSize = true;
+            label5.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(16, 12);
+            label5.Name = "label5";
+            label5.Size = new Size(177, 24);
+            label5.TabIndex = 28;
+            label5.Text = "Thông tin sinh viên";
             // 
-            // listBox1
+            // dtg_student
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(491, 3);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(577, 589);
-            this.listBox1.TabIndex = 1;
+            dtg_student.AllowDrop = true;
+            dtg_student.BackgroundColor = SystemColors.ControlLightLight;
+            dtg_student.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtg_student.Location = new Point(478, 80);
+            dtg_student.Margin = new Padding(3, 2, 3, 2);
+            dtg_student.Name = "dtg_student";
+            dtg_student.RowHeadersWidth = 51;
+            dtg_student.RowTemplate.Height = 29;
+            dtg_student.Size = new Size(591, 499);
+            dtg_student.TabIndex = 1;
+            dtg_student.CellContentClick += dt_Student_CellContentClick;
+            dtg_student.CellDoubleClick += dtg_student_CellDoubleClick;
+            // 
+            // txt_search_sv
+            // 
+            txt_search_sv.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            txt_search_sv.Location = new Point(662, 22);
+            txt_search_sv.Margin = new Padding(3, 2, 3, 2);
+            txt_search_sv.Name = "txt_search_sv";
+            txt_search_sv.Size = new Size(265, 32);
+            txt_search_sv.TabIndex = 2;
+            txt_search_sv.KeyDown += txt_search_sv_KeyDown;
+            // 
+            // lb_search
+            // 
+            lb_search.AutoSize = true;
+            lb_search.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            lb_search.Location = new Point(524, 28);
+            lb_search.Name = "lb_search";
+            lb_search.Size = new Size(90, 25);
+            lb_search.TabIndex = 3;
+            lb_search.Text = "Tìm Kiếm";
             // 
             // QuanLiSinhVien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.panel1);
-            this.Name = "QuanLiSinhVien";
-            this.Size = new System.Drawing.Size(1071, 613);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(lb_search);
+            Controls.Add(txt_search_sv);
+            Controls.Add(dtg_student);
+            Controls.Add(panel1);
+            Name = "QuanLiSinhVien";
+            Size = new Size(1071, 613);
+            Load += QuanLiSinhVien_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dtg_student).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Panel panel1;
         private Label label5;
-        private ListBox listBox1;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btn_dsghan;
+        private Button btn_duyet;
+        private Button btn_dsduyet;
+        private Button btn_xemtk;
+        private Button btn_sua;
+        private Button btn_delete;
         private Label label9;
-        private TextBox textBox6;
+        private TextBox txt_matoa;
         private Label label10;
-        private TextBox textBox8;
-        private TextBox textBox1;
+        private TextBox txt_maphong;
+        private TextBox txt_masv;
         private Label label6;
         private Label label1;
-        private TextBox textBox5;
+        private TextBox txt_sdt;
         private Label label2;
-        private TextBox textBox4;
+        private TextBox txt_diachi;
         private Label label3;
         private Label label4;
         private Label label7;
-        private TextBox textBox7;
+        private TextBox txt_sex;
         private Label label8;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private DateTimePicker modifyDate;
+        private TextBox txt_name;
+        private TextBox txt_cccd;
+        private DateTimePicker mdf_date;
+        private DataGridView dtg_student;
+        private TextBox txt_search_sv;
+        private Label lb_search;
     }
 }

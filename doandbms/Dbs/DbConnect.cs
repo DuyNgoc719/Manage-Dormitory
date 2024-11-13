@@ -70,6 +70,32 @@ namespace doandbms.Dbs
             }
         }
 
+        public object ExecuteScalar(string query, CommandType commandType, SqlParameter[] parameters = null)
+        {
+            try
+            {
+                OpenConnection();
+                using (SqlCommand cmd = new SqlCommand(query, Connection))
+                {
+                    cmd.CommandType = commandType;
+
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+
+                    return cmd.ExecuteScalar();  // Trả về kết quả từ thủ tục
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi thực thi câu lệnh: {ex.Message}");
+                return null;
+            }
+            finally
+            {
+                CloseConnection();
+            }
+        }
+
         // Lấy dữ liệu từ cơ sở dữ liệu (SELECT hoặc gọi stored procedure trả về bảng)
         public DataTable ExecuteQuery(string query, CommandType commandType, SqlParameter[] parameters = null)
         {

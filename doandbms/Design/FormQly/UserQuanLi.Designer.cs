@@ -39,7 +39,7 @@
             label2 = new Label();
             label1 = new Label();
             button2 = new Button();
-            button1 = new Button();
+            btn_updateQli = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -49,7 +49,7 @@
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(panel2);
             panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
+            panel1.Controls.Add(btn_updateQli);
             panel1.Location = new Point(3, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(1055, 607);
@@ -74,6 +74,7 @@
             // 
             txt_chucVu.Location = new Point(214, 282);
             txt_chucVu.Name = "txt_chucVu";
+            txt_chucVu.ReadOnly = true;
             txt_chucVu.Size = new Size(211, 23);
             txt_chucVu.TabIndex = 25;
             // 
@@ -95,6 +96,7 @@
             // 
             txt_maQl.Location = new Point(214, 70);
             txt_maQl.Name = "txt_maQl";
+            txt_maQl.ReadOnly = true;
             txt_maQl.Size = new Size(211, 23);
             txt_maQl.TabIndex = 22;
             // 
@@ -150,17 +152,18 @@
             button2.Text = "Đổi mật khẩu";
             button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_updateQli
             // 
-            button1.Font = new Font("Microsoft Sans Serif", 8.999999F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.ForeColor = Color.Black;
-            button1.Location = new Point(652, 210);
-            button1.Margin = new Padding(3, 2, 3, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(134, 36);
-            button1.TabIndex = 18;
-            button1.Text = "Cập nhật";
-            button1.UseVisualStyleBackColor = true;
+            btn_updateQli.Font = new Font("Microsoft Sans Serif", 8.999999F, FontStyle.Regular, GraphicsUnit.Point);
+            btn_updateQli.ForeColor = Color.Black;
+            btn_updateQli.Location = new Point(652, 210);
+            btn_updateQli.Margin = new Padding(3, 2, 3, 2);
+            btn_updateQli.Name = "btn_updateQli";
+            btn_updateQli.Size = new Size(134, 36);
+            btn_updateQli.TabIndex = 18;
+            btn_updateQli.Text = "Cập nhật";
+            btn_updateQli.UseVisualStyleBackColor = true;
+            btn_updateQli.Click += btn_updateQli_Click;
             // 
             // UserQuanLi
             // 
@@ -189,6 +192,6 @@
         private Label label2;
         private Label label1;
         private Button button2;
-        private Button button1;
+        private Button btn_updateQli;
     }
 }
