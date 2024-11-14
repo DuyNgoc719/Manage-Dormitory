@@ -42,6 +42,23 @@ namespace doandbms.Dbs
             bool success = dbConnect.ExecuteNonQuery(function, CommandType.StoredProcedure, parameters);
             MessageBox.Show(success ? "Cập nhật thành công!" : "Cập nhật thất bại.");
         }
+        public void AddSv(string MaSv, string name, string MaToa, string cccd, string MaPhong,string sdt,string username)
+        {
+            string function = "sp_ThemSinhVien";
+
+            SqlParameter[] parameters = {
+                new SqlParameter("@MaSv", MaSv),
+                new SqlParameter("@HoTen", name),
+                new SqlParameter("@MaToa", MaToa),
+                new SqlParameter("@MaPhong", MaPhong),
+                new SqlParameter("@CCCD",cccd),
+                new SqlParameter("@SDT",sdt),
+                new SqlParameter("@username",username)
+            };
+
+            bool success = dbConnect.ExecuteNonQuery(function, CommandType.StoredProcedure, parameters);
+            MessageBox.Show(success ? "Cập nhật thành công!" : "Cập nhật thất bại.");
+        }
 
         public string CheckLogin(string username, string password)
         {
@@ -61,6 +78,38 @@ namespace doandbms.Dbs
             }
 
             return null;
+        }
+        public bool CheckEmailExists(string email)
+        {
+            string query = "SELECT dbo.fn_CheckEmailExistence(@Email) AS EmailExists";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@Email", email)
+            };
+
+            DataTable resultTable = dbConnect.ExecuteQuery(query, CommandType.Text, parameters);
+
+            if (resultTable.Rows.Count > 0)
+            {
+                bool emailExists = Convert.ToBoolean(resultTable.Rows[0]["EmailExists"]);
+                return emailExists;
+            }
+
+            return false;  
+        }
+
+        public void UpdatePassword(string email, string newPassword)
+        {
+            string query = "UPDATE Account SET Password = @Password WHERE Email = @Email";
+
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@Password", newPassword),
+                new SqlParameter("@Email", email)
+            };
+
+            dbConnect.ExecuteQuery(query, CommandType.Text, parameters);
         }
 
 
@@ -82,7 +131,6 @@ namespace doandbms.Dbs
                     MaQl = resultTable.Rows[0]["MaQL"].ToString(),
                     Name = resultTable.Rows[0]["HoTen"].ToString(),
                     MaToaQl = resultTable.Rows[0]["MaToaQL"].ToString(),
-                    ChucVu = resultTable.Rows[0]["ChucVu"].ToString()
                 };
             }
             return null;
@@ -99,6 +147,8 @@ namespace doandbms.Dbs
 
             if (resultTable.Rows.Count > 0)
             {
+                byte[] anh = resultTable.Rows[0]["Anh"] as byte[];
+                //bool isActive = Convert.ToBoolean(resultTable.Rows[0]["IsActive"]);
                 return new SinhVien
                 {
                     MaSv = resultTable.Rows[0]["MaSv"].ToString(),
@@ -110,8 +160,8 @@ namespace doandbms.Dbs
                     Sdt = resultTable.Rows[0]["SDT"].ToString(),
                     MaPhong = resultTable.Rows[0]["MaPhong"].ToString(),
                     MaToa = resultTable.Rows[0]["MaToa"].ToString(),
-                    // Anh = ConvertByteArrayToImage((byte[])resultTable.Rows[0]["Anh"]),
-                    //Duyet = resultTable.Rows[0]["Duyet"]
+                    Anh = anh,
+                    //Duyet = isActive
                 };
             }
             return null;

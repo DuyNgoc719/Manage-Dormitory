@@ -29,7 +29,6 @@ namespace doandbms.Design
 
         private void getInforQuanLy()
         {
-            txt_chucVu.Text = quanLy.ChucVu.ToString();
             txt_maQl.Text = quanLy.MaQl.ToString();
             txt_maToaQl.Text = quanLy.MaToaQl.ToString();
             txt_name.Text = quanLy.Name.ToString();
@@ -41,8 +40,7 @@ namespace doandbms.Design
             {
                 quanLy.Name = txt_name.Text;
                 quanLy.MaToaQl = txt_maToaQl.Text;
-                MessageBox.Show(quanLy.MaToaQl);
-                qlyRepository.ChangeInforQli( quanLy.MaToaQl.ToString(),quanLy.Name.ToString());
+                qlyRepository.ChangeInforQli(quanLy.MaToaQl.ToString(),quanLy.Name.ToString(),quanLy.MaQl.ToString());
             }
         }
     }

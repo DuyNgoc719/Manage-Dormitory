@@ -30,7 +30,6 @@
         {
             panel1 = new Panel();
             btn_dsghan = new Button();
-            btn_duyet = new Button();
             btn_dsduyet = new Button();
             btn_xemtk = new Button();
             btn_sua = new Button();
@@ -65,7 +64,6 @@
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
             panel1.Controls.Add(btn_dsghan);
-            panel1.Controls.Add(btn_duyet);
             panel1.Controls.Add(btn_dsduyet);
             panel1.Controls.Add(btn_xemtk);
             panel1.Controls.Add(btn_sua);
@@ -96,30 +94,23 @@
             // 
             // btn_dsghan
             // 
-            btn_dsghan.Location = new Point(298, 508);
+            btn_dsghan.Location = new Point(246, 508);
             btn_dsghan.Name = "btn_dsghan";
             btn_dsghan.Size = new Size(75, 43);
             btn_dsghan.TabIndex = 84;
             btn_dsghan.Text = "Danh sách gia hạn";
             btn_dsghan.UseVisualStyleBackColor = true;
-            // 
-            // btn_duyet
-            // 
-            btn_duyet.Location = new Point(192, 508);
-            btn_duyet.Name = "btn_duyet";
-            btn_duyet.Size = new Size(75, 43);
-            btn_duyet.TabIndex = 83;
-            btn_duyet.Text = "Duyệt";
-            btn_duyet.UseVisualStyleBackColor = true;
+            btn_dsghan.Click += btn_dsghan_Click;
             // 
             // btn_dsduyet
             // 
-            btn_dsduyet.Location = new Point(84, 508);
+            btn_dsduyet.Location = new Point(139, 508);
             btn_dsduyet.Name = "btn_dsduyet";
             btn_dsduyet.Size = new Size(75, 43);
             btn_dsduyet.TabIndex = 82;
             btn_dsduyet.Text = "Danh sách duyệt";
             btn_dsduyet.UseVisualStyleBackColor = true;
+            btn_dsduyet.Click += btn_dsduyet_Click;
             // 
             // btn_xemtk
             // 
@@ -129,6 +120,7 @@
             btn_xemtk.TabIndex = 81;
             btn_xemtk.Text = "Xem tài khoản";
             btn_xemtk.UseVisualStyleBackColor = true;
+            btn_xemtk.Click += btn_xemtk_Click;
             // 
             // btn_sua
             // 
@@ -138,6 +130,7 @@
             btn_sua.TabIndex = 80;
             btn_sua.Text = "Sửa";
             btn_sua.UseVisualStyleBackColor = true;
+            btn_sua.Click += btn_sua_Click;
             // 
             // btn_delete
             // 
@@ -396,7 +389,6 @@
         private Panel panel1;
         private Label label5;
         private Button btn_dsghan;
-        private Button btn_duyet;
         private Button btn_dsduyet;
         private Button btn_xemtk;
         private Button btn_sua;

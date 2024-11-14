@@ -1,16 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Design\FormAdmin\AdminKyLuat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormAdmin\AdminQuanLiDienNuoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormAdmin\AdminQuanLiHopDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormAdmin\AdminQuanLiPhong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormAdmin\AdminQuanLiQuanLi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormAdmin\GiaoDienAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormQly\DSachGiaHan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormSv\GiaHanHopDong.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormSv\GiaoDienSinhVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Design\FormSv\KyLuatSinhVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Design\FormSv\ThongTinSinhVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="Design\User\ForgotPass.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Design\User\InforQly.cs">
+    <Compile Update="Design\User\InforSv.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Design\User\signIn.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Design\FormSv\GiaoDienSinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Design\FormQly\GiaoDienQuanLi.cs">

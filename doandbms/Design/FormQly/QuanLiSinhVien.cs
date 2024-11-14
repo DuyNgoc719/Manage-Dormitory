@@ -1,4 +1,5 @@
 ﻿using doandbms.Dbs;
+using doandbms.Design.FormQly;
 using doandbms.Entity;
 using System;
 using System.Collections.Generic;
@@ -105,7 +106,61 @@ namespace doandbms.Design
                 {
                     MessageBox.Show("Không có sinh viên được chọn");
                 }
-            } 
+            }
+        }
+
+        private void btn_sua_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Bạn Muốn sửa thông tin sinh viên này ? ", "Sửa sinh viên", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                SinhVien sv = new SinhVien();
+                sv = GetChangeSv();
+                if (sv != null)
+                {
+                    MessageBox.Show(sv.MaSv);
+                    qlyRepository.ChangeSv(sv);
+                }
+            }
+        }
+
+        private SinhVien GetChangeSv()
+        {
+            SinhVien sv = new SinhVien();
+            sv.Cccd = txt_cccd.Text;
+            sv.MaSv = txt_masv.Text;
+            sv.HoTen = txt_name.Text;
+            sv.Sdt = txt_sdt.Text;
+            sv.MaPhong = txt_maphong.Text;
+            sv.MaToa = txt_matoa.Text;
+            sv.DiaChi = txt_diachi.Text;
+            sv.Sex = txt_sex.Text;
+            sv.NgaySinh = DateTime.Parse(mdf_date.Text);
+            if (sv.Cccd != null && sv.DiaChi != null && sv.HoTen != null && sv.Sdt != null && sv.MaPhong != null && sv.Sex != null &&
+                sv.MaToa != null && sv.MaSv != null && sv.NgaySinh.ToString() != "")
+            {
+                return sv;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        private void btn_xemtk_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_dsduyet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_dsghan_Click(object sender, EventArgs e)
+        {
+            DSachGiaHan dSachGiaHan = new DSachGiaHan(quanLy);
+            dSachGiaHan.Show();
         }
     }
 }

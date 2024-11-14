@@ -120,7 +120,6 @@ D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.QuanLi
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.UserQuanLi.resources
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.GiaoDienSinhVien.resources
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.ForgotPass.resources
-D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.User.InforQly.resources
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.User.signIn.resources
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.User.signUp.resources
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Properties.Resources.resources
@@ -136,3 +135,14 @@ D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\refint\doandbms.dll
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.pdb
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.genruntimeconfig.cache
 D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\ref\doandbms.dll
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.AdminKyLuat.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.AdminQuanLiDienNuoc.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.AdminQuanLiHopDong.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.AdminQuanLiPhong.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.AdminQuanLiQuanLi.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormAdmin.GiaoDienAdmin.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormSv.GiaHanHopDong.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormSv.KyLuatSinhVien.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormSv.ThongTinSinhVien.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.User.InforSv.resources
+D:\DBS\Manage-Dormitory\doandbms\obj\Debug\net6.0-windows\doandbms.Design.FormQly.DSachGiaHan.resources

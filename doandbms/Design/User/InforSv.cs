@@ -13,47 +13,49 @@ using System.Windows.Forms;
 
 namespace doandbms.User
 {
-    public partial class InforQly : Form
+    public partial class InforSv : Form
     {
-        private QuanLy qLi = new QuanLy();
+        private SinhVien sinhVien = new SinhVien();
         AccountRepository accountRepository = new AccountRepository();
         private Account account;
-        public InforQly(Account acc)
+        public InforSv(Account acc)
         {   
             this.account = acc;
             InitializeComponent();
         }
 
-        public QuanLy QLi { get => qLi; set => qLi = value; }
 
         private void btn_Update_Click(object sender, EventArgs e)
         {     
             if (checkFill())
             {
-                qLi = getInforQly();
-                qLi.ChucVu=account.Role;
-                accountRepository.AddQly(qLi.MaQl,qLi.Name,qLi.MaToaQl,qLi.ChucVu,account.Username);
-                GiaoDienQuanLi giaoQl = new GiaoDienQuanLi(qLi);
-                giaoQl.Show();
+                sinhVien = getInforSv();
+                MessageBox.Show(sinhVien.MaSv.ToString());
+                accountRepository.AddSv(sinhVien.MaSv,sinhVien.HoTen,sinhVien.MaToa,sinhVien.Cccd,sinhVien.MaPhong,sinhVien.Sdt,account.Username);
+                signIn signIn = new signIn();
+                signIn.Show();
                 this.Close();
-                
             }
         }
 
         private Boolean checkFill()
         {
-            if (txt_MaQl.Text == "" || txt_MaToaQl.Text == "" || txt_Name.Text == "")
+            if (txt_MaSv.Text == "" || txt_Cccd.Text == "" || txt_Name.Text == "")
             {
                 return false;
             }
             return true;
         }
-        private QuanLy getInforQly()
+        private SinhVien getInforSv()
         {
-            QuanLy val = new QuanLy();
-            val.MaQl = txt_MaQl.Text;
-            val.Name = txt_Name.Text;
-            val.MaToaQl = txt_MaToaQl.Text;
+            SinhVien val = new SinhVien();
+            val.MaSv = txt_MaSv.Text;
+            val.HoTen = txt_Name.Text;
+            val.MaToa = txt_MaToa.Text;
+            val.Cccd = txt_Cccd.Text;
+            val.MaPhong = txt_MaPhong.Text;
+            val.Sdt=txt_phone.Text;
+            val.NgaySinh = DateTime.Today;
             return val;
         }
 

@@ -28,212 +28,235 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            btn_canhCao = new Button();
+            panel2 = new Panel();
+            txt_timKiem = new TextBox();
+            label6 = new Label();
+            btn_xoa = new Button();
+            btn_add = new Button();
+            dtp_ngay = new DateTimePicker();
+            label5 = new Label();
+            txt_loi = new TextBox();
+            txt_maToa = new TextBox();
+            txt_maSV = new TextBox();
+            txt_maKL = new TextBox();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
+            dtg_kyLuat = new DataGridView();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtg_kyLuat).BeginInit();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.dateTimePicker1);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox4);
-            this.panel1.Controls.Add(this.textBox3);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(546, 604);
-            this.panel1.TabIndex = 0;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(btn_canhCao);
+            panel1.Controls.Add(panel2);
+            panel1.Controls.Add(btn_xoa);
+            panel1.Controls.Add(btn_add);
+            panel1.Controls.Add(dtp_ngay);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(txt_loi);
+            panel1.Controls.Add(txt_maToa);
+            panel1.Controls.Add(txt_maSV);
+            panel1.Controls.Add(txt_maKL);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(3, 4);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(624, 805);
+            panel1.TabIndex = 0;
+            // 
+            // btn_canhCao
+            // 
+            btn_canhCao.Location = new Point(153, 487);
+            btn_canhCao.Name = "btn_canhCao";
+            btn_canhCao.Size = new Size(226, 47);
+            btn_canhCao.TabIndex = 39;
+            btn_canhCao.Text = "Cảnh Báo Vi Phạm";
+            btn_canhCao.UseVisualStyleBackColor = true;
+            btn_canhCao.Click += btn_canhCao_Click;
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(3, 419);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(538, 180);
-            this.panel2.TabIndex = 38;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(txt_timKiem);
+            panel2.Controls.Add(label6);
+            panel2.Location = new Point(3, 559);
+            panel2.Margin = new Padding(3, 4, 3, 4);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(615, 239);
+            panel2.TabIndex = 38;
             // 
-            // button2
+            // txt_timKiem
             // 
-            this.button2.Location = new System.Drawing.Point(283, 338);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 35);
-            this.button2.TabIndex = 37;
-            this.button2.Text = "Xóa";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(129, 338);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 35);
-            this.button1.TabIndex = 36;
-            this.button1.Text = "Thêm";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(172, 258);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(211, 23);
-            this.dateTimePicker1.TabIndex = 35;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(24, 258);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(121, 21);
-            this.label5.TabIndex = 34;
-            this.label5.Text = "Ngày vi phạm:";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(172, 205);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(211, 23);
-            this.textBox4.TabIndex = 33;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(172, 153);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 23);
-            this.textBox3.TabIndex = 32;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(172, 101);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(211, 23);
-            this.textBox2.TabIndex = 31;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(172, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 23);
-            this.textBox1.TabIndex = 30;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(24, 203);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 21);
-            this.label4.TabIndex = 29;
-            this.label4.Text = "Lỗi vi phạm:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(24, 151);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 21);
-            this.label3.TabIndex = 28;
-            this.label3.Text = "Mã Tòa:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(24, 101);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 21);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "Mã sinh viên:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(24, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 21);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Mã kỹ luật:";
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(555, 3);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(513, 604);
-            this.listBox1.TabIndex = 1;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(217, 124);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "Tìm kiếm";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(237, 67);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(211, 23);
-            this.textBox5.TabIndex = 39;
+            txt_timKiem.Location = new Point(271, 89);
+            txt_timKiem.Margin = new Padding(3, 4, 3, 4);
+            txt_timKiem.Name = "txt_timKiem";
+            txt_timKiem.Size = new Size(241, 27);
+            txt_timKiem.TabIndex = 39;
+            txt_timKiem.TextChanged += txt_timKiem_TextChanged;
+            txt_timKiem.KeyDown += txt_timKiem_KeyDown;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(89, 70);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 21);
-            this.label6.TabIndex = 38;
-            this.label6.Text = "Mã sinh viên:";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.Location = new Point(102, 93);
+            label6.Name = "label6";
+            label6.Size = new Size(105, 28);
+            label6.TabIndex = 38;
+            label6.Text = "Tìm kiếm:";
+            // 
+            // btn_xoa
+            // 
+            btn_xoa.Location = new Point(293, 420);
+            btn_xoa.Margin = new Padding(3, 4, 3, 4);
+            btn_xoa.Name = "btn_xoa";
+            btn_xoa.Size = new Size(86, 47);
+            btn_xoa.TabIndex = 37;
+            btn_xoa.Text = "Xóa";
+            btn_xoa.UseVisualStyleBackColor = true;
+            btn_xoa.Click += btn_xoa_Click;
+            // 
+            // btn_add
+            // 
+            btn_add.Location = new Point(153, 420);
+            btn_add.Margin = new Padding(3, 4, 3, 4);
+            btn_add.Name = "btn_add";
+            btn_add.Size = new Size(86, 47);
+            btn_add.TabIndex = 36;
+            btn_add.Text = "Thêm";
+            btn_add.UseVisualStyleBackColor = true;
+            btn_add.Click += btn_add_Click;
+            // 
+            // dtp_ngay
+            // 
+            dtp_ngay.Location = new Point(197, 344);
+            dtp_ngay.Margin = new Padding(3, 4, 3, 4);
+            dtp_ngay.Name = "dtp_ngay";
+            dtp_ngay.Size = new Size(241, 27);
+            dtp_ngay.TabIndex = 35;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.Location = new Point(27, 344);
+            label5.Name = "label5";
+            label5.Size = new Size(149, 28);
+            label5.TabIndex = 34;
+            label5.Text = "Ngày vi phạm:";
+            // 
+            // txt_loi
+            // 
+            txt_loi.Location = new Point(197, 273);
+            txt_loi.Margin = new Padding(3, 4, 3, 4);
+            txt_loi.Name = "txt_loi";
+            txt_loi.Size = new Size(241, 27);
+            txt_loi.TabIndex = 33;
+            // 
+            // txt_maToa
+            // 
+            txt_maToa.Location = new Point(197, 204);
+            txt_maToa.Margin = new Padding(3, 4, 3, 4);
+            txt_maToa.Name = "txt_maToa";
+            txt_maToa.Size = new Size(241, 27);
+            txt_maToa.TabIndex = 32;
+            // 
+            // txt_maSV
+            // 
+            txt_maSV.Location = new Point(197, 135);
+            txt_maSV.Margin = new Padding(3, 4, 3, 4);
+            txt_maSV.Name = "txt_maSV";
+            txt_maSV.Size = new Size(241, 27);
+            txt_maSV.TabIndex = 31;
+            // 
+            // txt_maKL
+            // 
+            txt_maKL.Location = new Point(197, 61);
+            txt_maKL.Margin = new Padding(3, 4, 3, 4);
+            txt_maKL.Name = "txt_maKL";
+            txt_maKL.Size = new Size(241, 27);
+            txt_maKL.TabIndex = 30;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(27, 271);
+            label4.Name = "label4";
+            label4.Size = new Size(127, 28);
+            label4.TabIndex = 29;
+            label4.Text = "Lỗi vi phạm:";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(27, 201);
+            label3.Name = "label3";
+            label3.Size = new Size(86, 28);
+            label3.TabIndex = 28;
+            label3.Text = "Mã Tòa:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(27, 135);
+            label2.Name = "label2";
+            label2.Size = new Size(138, 28);
+            label2.TabIndex = 27;
+            label2.Text = "Mã sinh viên:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(27, 65);
+            label1.Name = "label1";
+            label1.Size = new Size(118, 28);
+            label1.TabIndex = 26;
+            label1.Text = "Mã kỹ luật:";
+            // 
+            // dtg_kyLuat
+            // 
+            dtg_kyLuat.BackgroundColor = SystemColors.ControlLightLight;
+            dtg_kyLuat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtg_kyLuat.Location = new Point(633, 4);
+            dtg_kyLuat.Name = "dtg_kyLuat";
+            dtg_kyLuat.RowHeadersWidth = 51;
+            dtg_kyLuat.RowTemplate.Height = 29;
+            dtg_kyLuat.Size = new Size(588, 805);
+            dtg_kyLuat.TabIndex = 1;
+            dtg_kyLuat.CellClick += dtg_kyLuat_CellClick;
+            dtg_kyLuat.CellContentClick += dtg_kyLuat_CellContentClick;
+            dtg_kyLuat.CellDoubleClick += dtg_kyLuat_CellDoubleClick;
             // 
             // KyLuat
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.panel1);
-            this.Name = "KyLuat";
-            this.Size = new System.Drawing.Size(1071, 613);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(dtg_kyLuat);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
+            Name = "KyLuat";
+            Size = new Size(1224, 817);
+            Load += KyLuat_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dtg_kyLuat).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -241,20 +264,22 @@
         private Panel panel1;
         private ListBox listBox1;
         private Panel panel2;
-        private Button button2;
-        private Button button1;
-        private DateTimePicker dateTimePicker1;
+        private Button btn_xoa;
+        private Button btn_add;
+        private DateTimePicker dtp_ngay;
         private Label label5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txt_loi;
+        private TextBox txt_maToa;
+        private TextBox txt_maSV;
+        private TextBox txt_maKL;
         private Label label4;
         private Label label3;
         private Label label2;
         private Label label1;
         private Button button3;
-        private TextBox textBox5;
+        private TextBox txt_timKiem;
         private Label label6;
+        private DataGridView dtg_kyLuat;
+        private Button btn_canhCao;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("doandbms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e08abaacc10023d32019e9f294a2f1fd1fe33d80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ce55677159b4b9b96c3ba144542fda7e9fb1a95")]
 [assembly: System.Reflection.AssemblyProductAttribute("doandbms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("doandbms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

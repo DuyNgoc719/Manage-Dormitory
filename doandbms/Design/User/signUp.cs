@@ -49,30 +49,18 @@ namespace doandbms.User
                 acc = getAccount();
                 accountRepository.AddAccount(acc.Username, acc.Password, acc.Email, acc.Role);
             }
-            if (btnSelect_Qly.Checked)
-            {
-                InforQly inforQly = new InforQly(acc);
-                this.Hide();
-                inforQly.Show();
-
-            }
-
+            InforSv inforSv = new InforSv(acc);
+            this.Hide();
+            inforSv.Show();
+            
         }
-
         private Account getAccount()
         {
             Account val = new Account();
             val.Username = txt_Username.Text;
             val.Password = txt_Password.Text;
             val.Email = txt_Email.Text;
-            if (btnSelect_Sv.Checked)
-            {
-                val.Role = "ROLE_SV";
-            }
-            else
-            {
-                val.Role = "ROLE_QLY";
-            }
+            val.Role = "ROLE_SV";
             return val;
         }
 
@@ -83,17 +71,7 @@ namespace doandbms.User
             {
                 return false;
             }
-            else
-            {
-                if (btnSelect_Qly.Checked || btnSelect_Sv.Checked)
-                {
-                    return true;
-                }
-                else
-                {
-                    return false;
-                }
-            }
+            return true;
 
         }
 

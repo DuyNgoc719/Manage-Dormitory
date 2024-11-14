@@ -126,5 +126,31 @@ namespace doandbms.Dbs
             }
             return dataTable;
         }
+        public int ExecuteScalarQuery(string query, CommandType commandType, SqlParameter[] parameters = null)
+        {
+            int result = 0;
+            try
+            {
+                OpenConnection();
+                using (SqlCommand cmd = new SqlCommand(query, Connection))
+                {
+                    cmd.CommandType = commandType;
+
+                    if (parameters != null)
+                        cmd.Parameters.AddRange(parameters);
+                    result = Convert.ToInt32(cmd.ExecuteScalar());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Lỗi khi lấy dữ liệu: {ex.Message}");
+            }
+            finally
+            {
+                CloseConnection();
+            }
+            return result;
+        }
+
     }
 }

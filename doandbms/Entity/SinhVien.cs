@@ -17,11 +17,11 @@ namespace doandbms.Entity
         private string _sdt;
         private string _maPhong;
         private string _maToa;
-        private Image _anh;
+        private byte[] _anh;
         private bool _duyet;
 
         public SinhVien() { }
-        public SinhVien(string maSv, string hoTen, DateTime ngaySinh, string sex, string cccd, string diaChi, string sdt, string maPhong, string maToa, Image anh, bool duyet)
+        public SinhVien(string maSv, string hoTen, DateTime ngaySinh, string sex, string cccd, string diaChi, string sdt, string maPhong, string maToa, byte[] anh, bool duyet)
         {
             _maSv = maSv;
             _hoTen = hoTen;
@@ -45,7 +45,7 @@ namespace doandbms.Entity
         public string Sdt { get => _sdt; set => _sdt = value; }
         public string MaPhong { get => _maPhong; set => _maPhong = value; }
         public string MaToa { get => _maToa; set => _maToa = value; }
-        public Image Anh { get => _anh; set => _anh = value; }
+        public byte[] Anh { get => _anh; set => _anh = value; }
         public bool Duyet { get => _duyet; set => _duyet = value; }
     }
 }
