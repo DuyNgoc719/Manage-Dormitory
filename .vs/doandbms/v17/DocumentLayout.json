@@ -3,8 +3,49 @@
   "WorkspaceRootPath": "D:\\DBS\\Manage-Dormitory\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\user\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\forgotpass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\dbs\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\dbs\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\user\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\dbs\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\dbs\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\formqly\\quanlisinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\formqly\\quanlisinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\quanlisinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\formsv\\thongtinsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +60,105 @@
       "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\dbs\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\DBS\\Manage-Dormitory\\doandbms\\design\\formqly\\quanliphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\quanliphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\formqly\\giaodienquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\giaodienquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\DBS\\Manage-Dormitory\\doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\userquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\dbs\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\dbs\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\formqly\\giaodienquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\giaodienquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\entity\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\entity\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\formsv\\giaodiensinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formsv\\giaodiensinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\formsv\\giaodiensinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formsv\\giaodiensinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\user\\inforqly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\inforqly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\formqly\\giaodienquanli.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\giaodienquanli.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\user\\inforqly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\inforqly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\doandbms\\doandbms\\design\\user\\inforqly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\inforqly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\doandbms\\doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+=======
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\DBS\\Manage-Dormitory\\doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\user\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|D:\\DBS\\Manage-Dormitory\\doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\user\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\user\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\entity\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\formqly\\quanliphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|solutionrelative:doandbms\\design\\formqly\\quanliphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ED393E6-A6DF-4666-BD26-A4E0E10A5BA6}|doandbms\\doandbms.csproj|d:\\dbs\\manage-dormitory\\doandbms\\design\\formqly\\quanlihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -537,6 +675,78 @@
               "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiSinhVien.cs [Design]",
               "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiSinhVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-10-30T15:51:59.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DbConnect.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeDocumentMoniker": "doandbms\\Dbs\\DbConnect.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\DbConnect.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:37:14.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Program.cs",
+              "RelativeDocumentMoniker": "doandbms\\Program.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Program.cs",
+              "RelativeToolTip": "doandbms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:50:27.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuanLiDienNuoc.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:45.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KyLuat.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserQuanLi.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\UserQuanLi.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\UserQuanLi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:41:43.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "signIn.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signIn.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\signIn.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwDwAAAAaAAAAAAAAAA==",
+=======
               "WhenOpened": "2024-11-07T08:17:34.786Z",
               "EditorCaption": " [Design]"
             },
@@ -586,14 +796,153 @@
               "RelativeDocumentMoniker": "doandbms\\Dbs\\QlyRepository.cs",
               "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\QlyRepository.cs",
               "RelativeToolTip": "doandbms\\Dbs\\QlyRepository.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAHoAAAAAAAAAAAAmwJsAAAAcAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFUAAAAwAAAAAAAAAA==",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T23:52:45.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 24,
+=======
+              "DocumentIndex": 18,
+              "Title": "KyLuat.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:10.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "doandbms\\Dbs\\AccountRepository.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\AccountRepository.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\AccountRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:39:47.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbConnect.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeDocumentMoniker": "doandbms\\Dbs\\DbConnect.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\DbConnect.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-10-30T08:04:09.135Z"
+=======
+              "WhenOpened": "2024-10-30T07:37:14.975Z"
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+<<<<<<< HEAD
+              "Title": "signIn.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signIn.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\signIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:08:34.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+=======
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Title": "UserQuanLi.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:41:09.073Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 10,
+              "Title": "QuanLiHopDong.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:59.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuanLiPhong.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:47:14.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+=======
+              "DocumentIndex": 0,
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Title": "QuanLiSinhVien.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwGsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:47:38.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "signUp.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\signUp.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signUp.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\signUp.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\signUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:09:01.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "signIn.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signIn.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\signIn.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:25:04.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "Title": "UserQuanLi.cs [Design]",
               "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
               "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
@@ -879,12 +1228,214 @@
               "RelativeToolTip": "doandbms\\Design\\User\\signUp.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-11-01T00:25:48.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 47,
+=======
+              "WhenOpened": "2024-11-01T00:25:48.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuanLiDienNuoc.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiDienNuoc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:45.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Program.cs",
+              "RelativeDocumentMoniker": "doandbms\\Program.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Program.cs",
+              "RelativeToolTip": "doandbms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T06:50:27.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\Account.cs",
+              "RelativeDocumentMoniker": "doandbms\\Entity\\Account.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\Account.cs",
+              "RelativeToolTip": "doandbms\\Entity\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T08:04:09.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuanLiHopDong.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiHopDong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:59.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuanLiPhong.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiPhong.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:47:14.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserQuanLi.Designer.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.Designer.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\UserQuanLi.Designer.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.Designer.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\UserQuanLi.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:41:26.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\SinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Entity\\SinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\SinhVien.cs",
+              "RelativeToolTip": "doandbms\\Entity\\SinhVien.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:31:08.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GiaoDienQuanLi.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:52:05.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GiaoDienQuanLi.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs [Design]",
+              "RelativeToolTip": "..\\..\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:06:18.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiaoDienSinhVien.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:39:39.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InforQly.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:12:54.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GiaoDienSinhVien.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs [Design]",
+              "RelativeToolTip": "..\\..\\doandbms\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:08:13.804Z"
+<<<<<<< HEAD
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GiaoDienQuanLi.Designer.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowP4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:54:45.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InforQly.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:28:48.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InforQly.Designer.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.Designer.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.Designer.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.Designer.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:16:58.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "signUp.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signUp.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signUp.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signUp.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\signUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:09:01.194Z"
+=======
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "Title": "GiaoDienQuanLi.Designer.cs",
               "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
               "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",

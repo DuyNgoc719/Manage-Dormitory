@@ -289,15 +289,117 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+=======
+              "DocumentIndex": 1,
+              "Title": "QuanLiSinhVien.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\QuanLiSinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\QuanLiSinhVien.cs [Design]*",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\QuanLiSinhVien.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T08:17:34.786Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
+              "Title": "signIn.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signIn.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\signIn.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDwAAAAaAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "QlyRepository.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\QlyRepository.cs",
+              "RelativeDocumentMoniker": "doandbms\\Dbs\\QlyRepository.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\QlyRepository.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\QlyRepository.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFUAAAAwAAAAAAAAAA==",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T17:59:27.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KyLuat.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\KyLuat.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\KyLuat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:46:10.984Z"
+            },
+            {
+              "$type": "Document",
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "DocumentIndex": 3,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\AccountRepository.cs",
               "RelativeDocumentMoniker": "doandbms\\Dbs\\AccountRepository.cs",
+<<<<<<< HEAD
+              "ToolTip": "D:\\doandbms\\doandbms\\Dbs\\AccountRepository.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\AccountRepository.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+=======
               "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\AccountRepository.cs",
               "RelativeToolTip": "doandbms\\Dbs\\AccountRepository.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAFEAAAAAAAAAAAAxwGwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T17:13:42.091Z",
+=======
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAABWAAAAAAAAAA==",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:39:47.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbConnect.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeDocumentMoniker": "doandbms\\Dbs\\DbConnect.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Dbs\\DbConnect.cs",
+              "RelativeToolTip": "doandbms\\Dbs\\DbConnect.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAFUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T07:37:14.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+<<<<<<< HEAD
+              "Title": "signIn.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signIn.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signIn.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\signIn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:08:34.263Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+=======
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Title": "UserQuanLi.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\UserQuanLi.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:41:09.073Z",
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "EditorCaption": ""
             },
             {
@@ -884,7 +986,147 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 47,
+=======
+              "DocumentIndex": 22,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\SinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Entity\\SinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Entity\\SinhVien.cs",
+              "RelativeToolTip": "doandbms\\Entity\\SinhVien.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:31:08.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GiaoDienQuanLi.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+<<<<<<< HEAD
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+=======
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwHQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:52:05.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GiaoDienQuanLi.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs [Design]",
+<<<<<<< HEAD
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs [Design]",
+=======
+              "RelativeToolTip": "..\\..\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.cs [Design]",
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:06:18.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GiaoDienSinhVien.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:39:39.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "InforQly.cs",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.cs",
+              "ToolTip": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:12:54.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GiaoDienSinhVien.cs [Design]",
+              "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs [Design]",
+              "RelativeToolTip": "..\\..\\doandbms\\doandbms\\Design\\FormSv\\GiaoDienSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-10-30T14:08:13.804Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GiaoDienQuanLi.Designer.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "RelativeToolTip": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowP4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:54:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InforQly.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:28:48.041Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InforQly.Designer.cs",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.Designer.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\InforQly.Designer.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\InforQly.Designer.cs",
+              "RelativeToolTip": "doandbms\\Design\\User\\InforQly.Designer.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:16:58.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "signUp.cs [Design]",
+              "DocumentMoniker": "D:\\doandbms\\doandbms\\Design\\User\\signUp.cs",
+              "RelativeDocumentMoniker": "doandbms\\Design\\User\\signUp.cs",
+              "ToolTip": "D:\\doandbms\\doandbms\\Design\\User\\signUp.cs [Design]",
+              "RelativeToolTip": "doandbms\\Design\\User\\signUp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:09:01.194Z",
+              "EditorCaption": " [Design]"
+=======
+              "WhenOpened": "2024-10-30T14:08:13.804Z"
+>>>>>>> 5ce55677159b4b9b96c3ba144542fda7e9fb1a95
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+>>>>>>> 7174fe426d6d92f0eae336e20693a35ba0a02ec4
               "Title": "GiaoDienQuanLi.Designer.cs",
               "DocumentMoniker": "D:\\DBS\\Manage-Dormitory\\doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
               "RelativeDocumentMoniker": "doandbms\\Design\\FormQly\\GiaoDienQuanLi.Designer.cs",
